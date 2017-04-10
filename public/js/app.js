@@ -115,7 +115,7 @@ $(document).ready(function() {
 		});
 	});
 
-	$('#templates').load('template.html', function() {
+	$('#templates').load('templates/template.html', function() {
 		console.log($('#character').html());
 
 	renderList();
